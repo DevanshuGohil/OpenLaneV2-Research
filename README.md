@@ -30,11 +30,6 @@ To set up the project:
 
 3. Download the OpenLane V2 dataset and place it in the appropriate directory.
 
-4. Run the Jupyter notebooks in the following order:
-   - `Data_Preparation.ipynb`
-   - `Model_Training.ipynb`
-   - `Evaluation_and_Visualization.ipynb`
-
 ## Libraries Used
 
 The project relies on the following main libraries:
@@ -53,14 +48,3 @@ For a complete list of dependencies, refer to the `requirements.txt` file.
 This project demonstrates the effectiveness of Vision Transformers in the task of 3D centerline detection for autonomous driving. The implemented model shows significant improvements over traditional CNN-based approaches, particularly in handling complex road scenarios. The use of Fréchet and Chamfer distances for evaluation provides a robust measure of the model's performance in predicting accurate lane geometries.
 
 Future work could focus on integrating this lane detection system with other components of autonomous driving pipelines and further optimizing the model for real-time performance.
-
-Citations:
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/31101975/e21e304f-6334-4d7e-a560-2bdee4fea180/Task-3-CenterLine_Detection.ipynb
-[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/31101975/1bb96b20-fe1d-487c-b2ae-a920983d90ef/Assignment-CenterLine-Det-Transformer-3.ipynb
-[3] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/31101975/a35e29c7-6c27-4ce9-a04c-dfbc1b2b0848/Assignment-2-3.ipynb
-[4] https://proceedings.neurips.cc/paper_files/paper/2023/file/3c0a4c8c236144f1b99b7e1531debe9c-Paper-Datasets_and_Benchmarks.pdf
-[5] https://paperswithcode.com/dataset/openlane-v2
-[6] https://proceedings.neurips.cc/paper_files/paper/2023/file/3c0a4c8c236144f1b99b7e1531debe9c-Supplemental-Datasets_and_Benchmarks.pdf
-[7] https://github.com/OpenDriveLab/OpenLane-V2
-[8] https://paperswithcode.com/dataset/openlane-v2-test
-[9] https://openreview.net/forum?id=OMOOO3ls6g&noteId=uv6QBzxYeI
