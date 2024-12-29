@@ -21,9 +21,8 @@ The main task of this project is to detect and predict 3D centerlines of lanes i
   - [Task 3: Centerline Detection](#task-3-centerline-detection)
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
-- [Usage](#usage)
 - [Results](#results)
-- [Acknowledgements](#acknowledgements)
+- [Conclusion](#acknowledgements)
 
 ---
 
@@ -64,7 +63,7 @@ By combining cutting-edge computer vision techniques with deep learning, this pr
 
 ---
 
-## To setup Project
+## Getting Started
 
 1. Clone the Repository
 ```bash
@@ -77,7 +76,7 @@ pip install -r requirements.txt
 ```
 3. Download the OpenLane V2 dataset and place it in the appropriate directory.
 
-## Libraries Used
+## Dependencies
 
 The project relies on the following main libraries:
 
